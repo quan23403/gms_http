@@ -1,0 +1,11 @@
+{application,gms_http,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{gms_http_app,[]}},
+              {applications,[kernel,stdlib,crypto,public_key,ssl,ranch,
+                             cowboy]},
+              {env,[]},
+              {modules,[gms_http_app,gms_http_sup,hello_handler]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.
